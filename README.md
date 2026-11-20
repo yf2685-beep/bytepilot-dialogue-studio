@@ -1,5 +1,7 @@
 # BytePilot — Forum-Style Dialogue Creator
 
+Personal portfolio fork of [the original team repository](https://github.com/swe-students-fall2025/5-final-bytepilot). Team authorship and course history are preserved. CI badges below report the original team repository; deployment in this fork requires separate configuration.
+
 **Create fictional characters, compose multi-character conversations, and publish them as forum-style threads.**
 
 [![Web App CI/CD](https://github.com/swe-students-fall2025/5-final-bytepilot/actions/workflows/web-app-cicd.yml/badge.svg)](https://github.com/swe-students-fall2025/5-final-bytepilot/actions/workflows/web-app-cicd.yml)
@@ -37,8 +39,8 @@ I worked on Docker Compose configuration for the web service, connecting the app
 Prerequisites: Python 3.11+, and either your own MongoDB instance or Docker for a local database.
 
 ```bash
-git clone https://github.com/swe-students-fall2025/5-final-bytepilot.git
-cd 5-final-bytepilot
+git clone https://github.com/yf2685-beep/bytepilot-dialogue-studio.git
+cd bytepilot-dialogue-studio
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r web_app/requirements.txt
