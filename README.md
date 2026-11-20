@@ -9,6 +9,16 @@ Personal portfolio fork of [the original team repository](https://github.com/swe
 
 BytePilot, called **Forum Generator** in the original course documentation, is a Flask + MongoDB creative-writing application. Users author the dialogue and arrange it into a forum presentation; the current implementation does not require an LLM or an AI API key.
 
+## Animated walkthrough
+
+Choose characters → write a title and dialogue → publish locally → read the finished thread.
+
+![BytePilot writing workflow](docs/media/bytepilot-workflow.gif)
+
+Captured from the actual UI with fictional characters and an isolated in-memory database. The Publish button writes only to the local demonstration instance; no story is posted to an external service.
+
+[Recreate the animation](docs/DEMO.md). Playback timing is edited for readability.
+
 ## User journey
 
 **Register → create characters → compose a thread → save a draft or publish → browse the community.**
